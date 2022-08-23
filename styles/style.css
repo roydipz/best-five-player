@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.title {
+    font-family: 'Croissant One', cursive;
+    color: rgb(0, 0, 0);
+}
+.default-button {
+    background-color: orange;
+    font-weight: bold;
+    color: #fff;
+    padding: 5px 25px;
+    display: block;
+    width: 100%;
+}
+.default-button:hover {
+    background-color: transparent;
+}
+.default-button:focus {
+    outline: none;
+    border:none;
+    background-color: orange;
+    color: #fff;
+}
+
+
+.hero {
+    padding: 160px 0;
+    position: relative;
+    background: linear-gradient(rgba(21, 22, 21, 0.872),rgba(0, 0, 0, 0.838)), url(../image/banner-field.png);
+}
+.hero_info {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+}
+.hero_info h1.title {
+    color: orange;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.hero_info h1.title span {
+    display: inline-block;
+    font-family: 'Croissant One', cursive;
+}
+.hero_info p{
+    color: #fff;
+}
+.hero_man {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 350px;
+    z-index: 5;
+}
+.baner_fcb {
+    position: absolute;
+    left: 6%;
+    top: 6%;
+    height: 200px;
+    z-index: 5;
+}
+
+
+/* select section  */
+.select, footer {
+    background-color: #ebeef3;
+}
+.select .card {
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.198);
+}
+
+
+.selected, .budget {
+    background-color: #ffffff;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.198);
+    padding: 40px 25px;
+}
+.selected li {
+    color: rgb(0, 0, 0);
+}
+.budget .input {
+    width: 45%;
+    background-color: transparent;
+    padding: 5px 10px;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    outline: none;
+}
